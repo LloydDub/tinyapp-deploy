@@ -8,7 +8,7 @@ const cookieParser = require('cookie-parser');
 
 app.use(cookieParser());
 
-app.set('view engine', 'ejs');
+app.set('view engine', 'ejs')
 
 const bodyParser = require('body-parser');
 
